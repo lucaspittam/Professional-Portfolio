@@ -3,6 +3,88 @@ body {
     place-items: center;
     height: 100vh;
   }
+/* HEADER / NAV BAR STYLES START */
+
+header {
+    padding: 20px 35px;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    display: inline-block;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  header nav {
+    margin: 0px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.35vw;
+    
+  }
+  
+  header nav ul li a:hover {
+    background: black;
+    color: darkslategray;
+    border-radius: 15px;
+    text-shadow: none;
+  }
+  header img {
+      border: 5px solid;
+      border-radius: 50%;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+     
+
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+
+  /* SECTION TITLE STYLES START */
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: darkslategray;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    ;
+  }
+  
+  .primary-border {
+    border-color: darkslategray;
+  }
+  
+  /* SECTION TITLE STYLES END */
   
   .runBox {
     border: 1px solid #eaeaea;
@@ -22,4 +104,8 @@ body {
   h2 {
     order: 2;
   }
-  
+  /* Contact me */
+.cmBox {
+    display: flex;
+    justify-content: space-between;
+}

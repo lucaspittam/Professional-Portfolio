@@ -5,40 +5,49 @@
         <title>Lucas Pittam Portfolio | Full Stack Developer </title>
         <meta name="Lucas is a Full Stack Developer with a diverse skillset like programming, problem solving, and design. Love learing about new tech and business ideas. ">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./assets/style.css" />
     </head>
+
     <body>
         <!-- Nav-->
         <header>
+          <div>
             <h1>
-              Lucas Pittam | Full Stack Developer
+              Lucas Pittam
             </h1>
+          </div>
+          <div>
+            <img src="./assets/IMG_0895_3.jpg" width="200" height="200">
+          </div>
             <nav>
               <ul>
                 <li>
                   <a href="#about-me">About Me</a>
                 </li>
                 <li>
-                  <a href="#Work">Work</a>
+                  <a href="#work">Work</a>
                 </li>
                 <li>
                   <a href="#contact-me">Contact Me</a>
                 </li>
                 <li>
-                  <a href="#Resume">Resume</a>
+                  <a href="">Resume</a>
                 </li>
               </ul>
             </nav>
-          </header>      
+        </header>      
         <!-- Page Content-->
-            <!-- HERO-->
-<section>
 
-</section>
+            <!-- HERO-->
+    <section class="hero">
+      <div>
+        <img src="./assets/IMG_0895_3.jpg" alt="profile picture">
+     </div>
+    </section>
             <!-- About-->
-           <section>
+           <section id="about-me" class="about-me">
              <div>
-               <h2>
+               <h2 class="section-title primary-border">
                  About Me
                </h2>
              </div>
@@ -48,35 +57,69 @@
               </p>
             </div>
            </section>
+
+
+
             <!-- Work-->
-            <section>
+            <section id="work" class="work">
              <div>
-               <h2>
+               <h2 class="section-title primary-border">
                  Work
                </h2>
              </div>
-             <a href="https://lucaspittam.dev/run-buddy/">
-               <div class="runBox">
-                 <h2>Run Buddy</h2>
-                 <div class="">
-               </div>
-             </a>
-           </section>
+             <div class = "projects-grid-wrapper">
+              <div class="projects-grid">
+
+                  <a href="https://lucaspittam.dev/run-buddy/" target="_blank" class="project run-buddy">
+                      <div class="projectl">
+                          <h3>Run Buddy</h3>
+                          <p>HTML/CSS</p>
+                      </div>
+                  </a>
+                  <a href="#" target="_blank" class="project 2">
+                      <div class="projectl">
+                          <h3>Project 2</h3>
+                          <p>lorem epsom</p>
+                      </div>
+                  </a>
+                  <a href="#" target="_blank" class="project 3">
+                      <div class="projectl">
+                          <h3>Project 3</h3>
+                          <p>lorem</p>
+                      </div>
+                  </a>
+                  <a href="#" target="_blank" class="project 4">
+                      <div class="projectl">
+                          <h3>Project 4</h3>
+                          <p>Lorem</p>
+                      </div>
+                  </a>
+                  <a href="#" target="_blank"  class="project project5">
+                      <div class="projectl">
+                          <h3>Project 5</h3>
+                          <p>Lorem epsum</p>
+                      </div>
+                  </a>
+                </div>
+              </div>
+            </section>
             <!-- Contact me-->
-            <section>
+            <footer id="contact-me" class="contactMe">
               <div>
-                <h2>
+                <h2 class="section-title primary-border">
                   Contact Me
                 </h2>
               </div>
-              <span>
-                <a href="tel:4169976677">416.997.6677</a>
-                <a href="mailto:pittamlucas@gmail.com">Email</a>
-                
-                <a href="https://github.com/lucaspittam">GitHub</a>
-                <a href="https://twitter.com/Pitzii_">Twitter</a>
-                <a href="https://open.spotify.com/user/22jayfi3zcgj5uswgnssk6rki?si=iToRISF0T1-WzkABW08qMw&utm_source=native-share-menu">Spotify</a>
-              </span>
-            </section>
+              <div class="cmBox">
+                <div id="cminfo">
+                  <ul>
+                    <li><a href="tel:4169976677">416.997.6677</a></li>
+                    <li><a href="mailto:pittamlucas@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/lucaspittam">GitHub</a></li>
+                    <li><a href="https://twitter.com/Pitzii_">Twitter</a></li>
+                    <li><a href="https://open.spotify.com/user/22jayfi3zcgj5uswgnssk6rki?si=iToRISF0T1-WzkABW08qMw&utm_source=native-share-menu">Spotify</a></li>
+                  </ul>
+                </div>
+            </footer>
     </body>
 </html>
