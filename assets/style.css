@@ -1,6 +1,6 @@
 :root {
   --primary: #ffffff;
-  --secondary: #81848f;
+  --secondary: #222222;
   --pop: #0eaa7b;
 }
 
@@ -82,6 +82,9 @@ header nav ul li a:hover {
   align-items: center;
   justify-content: space-around;
 }
+.hero span h1{
+  text-size-adjust: 200px;
+}
 
 .hero img {
   height: 400px;
@@ -117,18 +120,18 @@ header nav ul li a:hover {
   width: 90%;
 }
 /* Work */
-.my-work {
+.work {
   padding: 30px 0;
   display: flex;
   justify-content: space-between;
   background-color: var(--primary);
 }
 
-.my-work h2 {
+.work h2 {
   color: var(--secondary);
 }
 
-.projects-grid-wrapper {
+.grid{
   width: 80%;
   height: 500px;
   display: flex;
@@ -167,7 +170,7 @@ header nav ul li a:hover {
 
 .two{
   background-image: url("../assets/inprogress.jpg");
-  background-position: 50% 15%;
+  background-position: 50% 50%;
 }
 
 .three {
@@ -184,14 +187,13 @@ header nav ul li a:hover {
 }
 
 .projectl {
-  /*background-color: var(--secondary);*/
   background-color: lightgray;;
   color: var(--primary);
   padding: 10px;
 }
-/* my work section styling end */
+/*work  end */
 
-/* contact me section styling start */
+/* contact me  start */
 footer {
   display: flex;
   justify-content: space-between;
@@ -207,7 +209,7 @@ footer {
   align-items: center;
 }
 
-#contact-list {
+.cminfo {
   width: 60%;
 }
 
@@ -239,7 +241,7 @@ footer ul li a:hover {
   color: var(--secondary);
   border-radius: 15px;
 }
-/* contact me section styling end */
+/* contact me  end */
 
 /* MEDIA QUERY FOR TABLET SCREENS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -298,12 +300,12 @@ footer ul li a:hover {
       padding: 15px;
   }
 
-  .my-work {
+  .work {
       flex-direction: column;
       padding: 30px 0;
   }
 
-  .projects-grid-wrapper {
+  .grid {
       width: 100%;
       padding: 10px;
   }
@@ -330,22 +332,3 @@ footer ul li a:hover {
   }
   
 }
-
-  .runBox {
-    border: 1px solid #eaeaea;
-    border-radius: 15px;
-    box-shadow:
-      0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-      0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-      0 12.5px 10px rgba(0, 0, 0, 0.06),
-      0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-      0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-      0 100px 80px rgba(0, 0, 0, 0.12);
-    display: flex;
-    flex-direction: column;
-    padding: 1.5em;
-    width: 300px;
-  }
-  h2 {
-    order: 2;
-  }
