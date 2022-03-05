@@ -4,8 +4,9 @@
 Description: This site uses Html and CSS.
 
 Completed Screenshot:
+[screenshot.pdf](https://github.com/lucaspittam/Professional-Portfolio/files/8191432/screenshot.pdf)
 
-![alt text](https://github.com/lucaspittam/Professional-Portfolio/blob/main/screenshot.pdf?raw=true)
+
 
 URL of Github Repository: https://github.com/lucaspittam/Professional-Portfolio
 
