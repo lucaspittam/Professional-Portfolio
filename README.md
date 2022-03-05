@@ -5,11 +5,11 @@ Description: This site uses Html and CSS.
 
 Completed Screenshot:
 
-![Portfolio_Complete_Png]()
+![alt text](https://github.com/lucaspittam/Professional-Portfolio/blob/main/screenshot.pdf?raw=true)
 
 URL of Github Repository: https://github.com/lucaspittam/Professional-Portfolio
 
-The deployed link for the website is: https://lucaspittam.github.io/Horiseon-Refactor-Project/
+The deployed link for the website is: https://lucaspittam.github.io/Professional-Portfolio
 
 
 MIT License
