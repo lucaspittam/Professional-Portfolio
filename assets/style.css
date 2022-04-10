@@ -170,8 +170,8 @@ header nav ul li a:hover {
   background-image: url("../assets/run-buddy-pic.jpg");
 }
 
-.two{
-  background-image: url("../assets/inprogress.jpg");
+.trekker-app{
+  background-image: url("../assets/TrekkerApp.png");
   background-position: 50% 50%;
 }
 
